@@ -6,46 +6,12 @@
 </head>
 
 <body>
-    <!-- form -->
-    <form action="">
-        <!-- fieldset -->
-        <fieldset>
-            <!-- legend -->
-            <legend>Form Data Diri</legend>
-            <!-- input -->
-            Nama Anda : <input type="text" name="nama"> <br>
-            Email Anda: <input type="email" name="Email"> <br>
-            <!-- textarea -->
-            Alamat : <textarea name="Komentar" cols="30" rows="5"></textarea> <br>
-            <!-- Label -->
-            <label for="date">Tanggal Lahir :</label>
-            <input type="date" name="ttl" id="date"><br>
-            <!-- select -->
-            <label for="Jurusan">Jurusan :</label>
-            <select name="jurusan1" id="Jurusan">
-                <!-- Optgroup -->
-                <optgroup label="Fakultas Ilmu Komputer">
-                    <!-- Option -->
-                    <option value="if">Informatika</option>
-                    <option value="si">Sistem Informasi</option>
-                    <option value="sd">Sains Data</option>
-                </optgroup>
-                <optgroup label="Fakultas Ekonomi & Bisnis">
-                    <option value="mj">Manajemen</option>
-                    <option value="ep">Ekonomi Pembangunan</option>
-                    <option value="ak">Akuntansi</option>
-                    <option value="kwn">Kewirausahaan</option>
-                </optgroup>
-            </select><br>
-
-            <label for="myfile">Select a file:</label>
-            <input type="file" id="myfile" name="myfile"><br>
-
-            <input type="submit" name="submit" value="Submit">
-            <input type="reset" name="submit2" value="Clear"><br><br>
-            <!-- Button -->
-            <button type="button">Kembali</button>
-        </fieldset>
+    <form name="form1" method="post" action="aksi.php">
+        Nama Anda : <input type="text" name="nama"> <br>
+        Email Anda: <input type="text" name="nama"> <br>
+        Alamat : <textarea name="Komentar" cols="30" rows="5"></textarea> <br>
+        <input type="submit" name="submit" value="Submit">
+        <input type="reset" name="submit2" value="Reset">
     </form>
 </body>
 
